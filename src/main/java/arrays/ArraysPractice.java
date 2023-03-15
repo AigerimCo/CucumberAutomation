@@ -1,6 +1,7 @@
 package arrays;
 
-public class ArraysPractice {
+public class
+ArraysPractice {
     public static void main(String[] args) {
         /*
         create array of Strings - groceryList, with length of 5

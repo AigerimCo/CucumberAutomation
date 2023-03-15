@@ -19,7 +19,7 @@ public class Job {
     boolean isHighlyPaid;
 
     public void getPaid(double salary){
-        System.out.println(jobType + "got paid " + salary);
+        System.out.println(jobType + " got paid " + salary);
 
     }
     public void takeVacation(){

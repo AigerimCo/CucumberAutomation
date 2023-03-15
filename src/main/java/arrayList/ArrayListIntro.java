@@ -40,7 +40,7 @@ public class ArrayListIntro {
         System.out.println(toDoList);
 
         /*
-        generic ArrayList is used with diamond sign,
+        generic ArrayListTest is used with diamond sign,
         inside diamond sign you put data type
          */
 
@@ -54,7 +54,7 @@ public class ArrayListIntro {
 
         System.out.println(toDoList2.get(3)); // grocery shopping
         int size = toDoList2.size();
-        //size() is for ArrayList, length() for Array
+        //size() is for ArrayListTest, length() for Array
 
         /*
         print all elements using for loop
@@ -72,7 +72,7 @@ public class ArrayListIntro {
 
         }
 /*
-ArrayList set() method
+ArrayListTest set() method
  */
         ArrayList<String> cars = new ArrayList<>();
         cars.add("Moserati");
@@ -95,7 +95,7 @@ ArrayList set() method
         System.out.println(cars.get(4));
 
 /*
-ArrayList remove()method
+ArrayListTest remove()method
  */
         System.out.println(("size: " + cars.size()));
         System.out.println(cars.get(1)); // 1 returns Lambo
@@ -128,8 +128,8 @@ Moserati
             }
         }
 
-//remove all elements from ArrayList
-cars.clear();// remove all elements from ArrayList
+//remove all elements from ArrayListTest
+cars.clear();// remove all elements from ArrayListTest
         System.out.println(cars.size());
 
 

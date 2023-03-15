@@ -6,7 +6,7 @@ public class ArrayListLoops {
 
     public static void main(String[] args) {
 
-//   1. Create an ArrayList of 10 fruits
+//   1. Create an ArrayListTest of 10 fruits
 
         ArrayList<String> fruits = new ArrayList<>();
         fruits.add("apple");
@@ -26,7 +26,7 @@ public class ArrayListLoops {
             i++;
         }
 
-//2. Create ArrayList<String> of 10 vegetables, print all vegetables using do while loop.
+//2. Create <String> of 10 vegetables, print all vegetables using do while loop.
 
         ArrayList<String> vegetables = new ArrayList<>();
         vegetables.add("potatoes");
@@ -47,7 +47,7 @@ public class ArrayListLoops {
         } while (a < vegetables.size());
 
 
-// 3. Create ArrayList<String>of 10 cities, print  all cities using while loop.
+// 3. Create ArrayListTest<String>of 10 cities, print  all cities using while loop.
 
   ArrayList<String> cities = new ArrayList<>();
         cities.add("New York");
@@ -67,7 +67,7 @@ public class ArrayListLoops {
             b++;
         }
 
-//4. Create ArrayList<String> of 10 foods, print all foods using for loop
+//4. Create ArrayListTest<String> of 10 foods, print all foods using for loop
 
         ArrayList<String> foods = new ArrayList<>();
 

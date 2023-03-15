@@ -35,19 +35,21 @@ public class RecapDoWhileLoop {
             System.out.println(b);
             b++;
         } while (b <= 900);
-    }
+
     /*
     print numbers from 5 to 500, that can be divisible by 5 using do while loop
      */
+/*
 
-  /*
-    int c =5=5;
-        do{
-        if (5 % 5 == 0) ;
-        System.out.println(5);
-    }c++;
-    } while (c <= 500);
 
-   */
+        int c = 5;
+        do {
+            if (5 % 5 == 0) ;
+            c++;
+            System.out.println(c);
+        } while (c <= 500);
+
+ */
+    }
 
 }

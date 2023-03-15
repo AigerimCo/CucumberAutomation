@@ -20,7 +20,7 @@ public class doWhileLoop {
         int a = 5;
 
         do {
-            System.out.println(a + "hello");
+            System.out.println(a + " hello");
             a--;
         } while (a > 0);
 

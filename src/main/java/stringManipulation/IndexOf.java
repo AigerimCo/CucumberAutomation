@@ -3,7 +3,7 @@ package stringManipulation;
 public class IndexOf {
     public static void main (String[] args) {
        String str = "abcdefg";
-       System.out.println(str.charAt(3));
+       System.out.println(str.charAt(3));//d
          //charAt (int index) takes an integer
         //and returns char behind that integer
         //can  only be used by String
@@ -15,8 +15,8 @@ public class IndexOf {
          a = 0; b = 1; c = 2; d = 3
          */
 
-        System.out.println(str.indexOf('c'));
-        System.out.println(str.charAt(2));
+        System.out.println(str.indexOf('c'));//2
+        System.out.println(str.charAt(2));//c
         int index = str.indexOf('g');
 
 //==========================what if string has 2 or more same letters
@@ -28,7 +28,7 @@ public class IndexOf {
 
         str2.indexOf('c'); //if indexOf takes one char, it returns the index of that char
         int i = str2.indexOf("dee"); // if indexOf takes one String, it returns the index of first char of that String
-        System.out.println("index of dee: " + i);
+        System.out.println("index of dee: " + i);//index of dee: 6
 
 
 
@@ -36,7 +36,7 @@ public class IndexOf {
 
         String state = "Connecticut";
 
-        System.out.println(state.indexOf('0')); //1
+        System.out.println(state.indexOf('0')); //-1
         System.out.println(state.indexOf("ti")); //6
         System.out.println(state.indexOf("nnecticut")); //2
         System.out.println(state.indexOf('u', state.length() / 2)); //9 -  word starts from half,not from beginning

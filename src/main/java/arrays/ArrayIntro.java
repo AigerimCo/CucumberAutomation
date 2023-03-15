@@ -9,7 +9,7 @@ public class ArrayIntro {
         String animal3 = animals[2];
         String animal4 = animals[3]; // if more than 3, we see outOfBounderError
 
-        System.out.println(animal1); // elephant
+        System.out.println(animals[1]); // elephant
         System.out.println(animals[2]); // wolf
         System.out.println(animals[10-8+1]); // lion
         System.out.println(animals[animals.length -2]); //wolf

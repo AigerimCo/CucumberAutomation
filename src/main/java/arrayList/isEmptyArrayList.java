@@ -26,7 +26,7 @@ public class isEmptyArrayList {
         System.out.println(isListEmpty);//false
 
         /*
-        convert ArrayList to Array
+        convert ArrayListTest to Array
          */
 
        String [] arrayOfCompanies = new String[companies.size()];
@@ -35,7 +35,7 @@ public class isEmptyArrayList {
         System.out.println(Arrays.toString(arrayOfCompanies));
 
         /*
-        Convert Array to ArrayList
+        Convert Array to ArrayListTest
          */
         String[] geeks = {"Saikal","Myrzakhan","Ilgiz","Zhamal"};
         List<String> arrayListGeeks = Arrays.asList(geeks);

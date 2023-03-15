@@ -15,18 +15,41 @@ public class ArraysHomeworkWrong {
 3.1. create 5 arrays of int with different sizes, names and values.
 Print all elements of one array.
  */
+     int [] ideas = new int[]{1, 2, 3, 4, 5,};
 
-     int [] ideas = new int[]{1, 2, 3, 4, 5};
-
-        for (int i = 0; i < ideas.length; i++) {
+        for (int i = ideas.length-1; i >= 0;i--) {
             System.out.println(ideas[i]);
         }
+
+
+
+        int [] numberOfIdeas = new int[5];
+        numberOfIdeas[0]  = 111;
+        numberOfIdeas[1]  = 222;
+        numberOfIdeas [2]  = 333;
+        numberOfIdeas [3]  = 444;
+        numberOfIdeas [4]  = 555;
+        System.out.println(numberOfIdeas[0]);
+        for(int a = 0; a < ideas.length; a++ ){
+            System.out.println(numberOfIdeas[a]);
+        }
+
+
+
+        /*
+        int [] arrayOfIdeas = {1,11,22,33,44,55,66};
+        System.out.println(arrayOfIdeas[5]);
+
+
+        int NumOfIdeas [] = {6,7,8,9,10,11};
+
+ */
 
 /*
 3.3. create 5 arrays of double with different sizes,
 names  and values. Print all elements of one array.
  */
-        double [] temperature = new double[]{35.0, 36, 17.7, 38.5, 39};
+        double [] temperature = new double[]{35.0, 36.2, 17.7, 38.5, 39.6};
         for (int x = 0; x < temperature.length; x++)
             System.out.println(temperature[x]);
 
@@ -55,7 +78,9 @@ names  and values. Print all elements of one array.
             berries[3]  = "blackberry";
             berries[4]  =  "cranberry";
 
+        System.out.println(berries[0]);
             for (int a = 0; a < berries.length; a++) {
                 System.out.println(berries[a]);
-            }}
+            }
+    }
     }
